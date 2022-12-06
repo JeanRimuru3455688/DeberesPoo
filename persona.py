@@ -11,8 +11,8 @@ class persona:
         return f'Hola {otra_persona.nombre} me llamo {self.nombre}, y estudio en la  {self.centroEstudio} '  
     
 if __name__== "__main__" :
-    Persona1 = persona("Juan", 18, "espe")
-    Persona2 = persona("Alison", 28, "uce") 
+    Persona1 = persona("Jean", 18, "Central")
+    Persona2 = persona("Jareth", 28, "uce") 
     
     print(Persona1.conversar(Persona2))  
     
